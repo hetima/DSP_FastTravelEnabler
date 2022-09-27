@@ -1,7 +1,7 @@
 {
     "name": "FastTravelEnabler",
     "description": "Enable fast travel in normal mode",
-    "version_number": "1.0.0",
+    "version_number": "1.0.1",
     "dependencies": [],
     "website_url": "https://github.com/hetima/DSP_FastTravelEnabler"
 }

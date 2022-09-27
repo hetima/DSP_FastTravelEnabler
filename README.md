@@ -10,6 +10,10 @@ Enable fast travel in normal mode not only sandbox mode.
 
 ## Release Notes
 
+### v1.0.1
+
+- Support game version 0.9.27.14546 (doesn't work on earlier versions)
+
 ### v1.0.0
 
 - Initial release for game version 0.9.26
