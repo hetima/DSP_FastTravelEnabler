@@ -72,7 +72,7 @@ namespace FastTravelEnablerMod
                 return PatchSandboxToolsEnabled(instructions);
             }
 
-            [HarmonyTranspiler, HarmonyPatch(typeof(UIStarmap), "TeleportToUPosition")]
+            [HarmonyTranspiler, HarmonyPatch(typeof(UIStarmap), "StartFastTravelToUPosition")]
             public static IEnumerable<CodeInstruction> UIStarmap_TeleportToUPosition_Transpiler(IEnumerable<CodeInstruction> instructions)
             {
                 return PatchSandboxToolsEnabled(instructions);
